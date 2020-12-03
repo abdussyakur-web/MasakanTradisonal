@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/crete_round"
+        android:text="Katalog Makanan"
+        android:padding="10dp"
+        android:textColor="#040304"
+        android:textSize="29sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/tombol_asinan_bogor"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="3dp"
+            android:src="@drawable/asinan_bogor"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:scaleType="fitCenter"
+            />
+        <ImageButton
+            android:id="@+id/tombol_gado_gado"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="3dp"
+            android:layout_marginStart="60px"
+            android:layout_marginLeft="60px"
+            android:src="@drawable/gado_gado"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:scaleType="fitCenter"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/tombol_kerak_telur"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="3dp"
+            android:layout_marginStart="60px"
+            android:layout_marginLeft="60px"
+            android:src="@drawable/kerak_telur"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:scaleType="fitCenter"
+            />
+        <ImageButton
+            android:id="@+id/tombol_nasi_goreng"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="3dp"
+            android:layout_marginStart="60px"
+            android:layout_marginLeft="60px"
+            android:src="@drawable/nasi_goreng"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:scaleType="fitCenter"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/tombol_rendang"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="3dp"
+            android:layout_marginStart="60px"
+            android:layout_marginLeft="60px"
+            android:src="@drawable/rendang"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:scaleType="fitCenter"
+            />
+        <ImageButton
+            android:id="@+id/tombol_rujak_buah"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="3dp"
+            android:layout_marginStart="60px"
+            android:layout_marginLeft="60px"
+            android:src="@drawable/rujak_buah"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:scaleType="fitCenter"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
